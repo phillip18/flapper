@@ -43,3 +43,9 @@ gem 'angular-rails-templates'
 gem 'responders'
 
 gem 'ng-rails-csrf'
+
+gem 'devise'
+
+source "https://rails-assets.org" do
+  gem "rails-assets-angular-devise"
+end
